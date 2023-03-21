@@ -11,7 +11,7 @@ const authToken = "716d830f094316706ff331a62a5167a0";
 const client = new twilio.Twilio(accountSid, authToken);
 
 const app = express();
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello, world!");
